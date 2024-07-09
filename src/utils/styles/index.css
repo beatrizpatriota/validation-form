@@ -1,0 +1,42 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 100vh;
+    padding: 24px;
+
+    .submit {
+      display: grid;
+      text-align: end;
+      align-items: end;
+      gap: 24px;
+      }
+      .submit-with-no-message {
+        text-align: end;
+        }
+  }
+  
+  .form-container label {
+    font-weight: bold;
+  }
+  
+  .form-container input {
+    width: 100%;
+  }
+
+  .icon {
+    position: relative;
+    right: 5px;
+}
+
+.button {
+  width: 200px;
+}
+
+.error {
+    color: #d32f2f;
+}
+
+.success {
+    color: green;
+}
